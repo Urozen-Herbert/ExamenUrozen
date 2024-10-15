@@ -1,0 +1,79 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f4f4f9; /* Fondo claro */
+}
+
+h1 {
+    text-align: center;
+    color: #333; /* Color del texto del encabezado */
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#quizContainer {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff; /* Fondo blanco para el contenedor del quiz */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.question {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd; /* Borde gris claro */
+    border-radius: 5px;
+    background-color: #fafafa; /* Fondo ligeramente gris */
+}
+
+.option {
+    display: block;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    cursor: pointer; /* Cambia el cursor al pasar sobre las opciones */
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+#navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #007bff; /* Color del botón */
+    color: white; /* Color del texto del botón */
+    border: none;
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Efecto de transición */
+}
+
+button:hover {
+    background-color: #0056b3; /* Color más oscuro al pasar el mouse */
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 1.5em; /* Aumentar tamaño del resultado */
+    text-align: center;
+    color: #007bff; /* Color azul para el resultado */
+}
+
+#timer {
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #d9534f; /* Color rojo para el temporizador */
+}

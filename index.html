@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de Preguntas</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Incluir la biblioteca XLSX -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.0/xlsx.full.min.js"></script>
+</head>
+<body>
+    <h1>Quiz de Preguntas</h1>
+    <input type="file" id="fileInput" />
+    <button id="startQuiz">Iniciar Quiz</button>
+    <div id="quizContainer"></div>
+    <button id="submitQuiz" style="display:none;">Enviar Respuestas</button>
+    <div id="result" style="display:none;"></div>
+    <script src="script.js"></script>
+</body>
+</html>
